@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["haupham <hauph@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+sqlalchemy = "^2.0.27"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+pyjwt = "^2.8.0"
+sqlmodel = "^0.0.16"
+pydantic-settings = "^2.2.0"
+pydantic = "^2.6.1"
+alembic = "^1.13.1"
+sqlalchemy-utils = "^0.41.1"
+ruff = "^0.2.2"
+pre-commit = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

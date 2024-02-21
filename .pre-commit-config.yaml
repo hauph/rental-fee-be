@@ -5,10 +5,6 @@ repos:
       hooks:
           # Run the linter.
           - id: ruff
-            files: app/\.(py)$
-            exclude: ^alembic/
             args: [--fix]
           # Run the formatter.
           - id: ruff-format
-            files: \.(py)$
-            exclude: ^alembic/

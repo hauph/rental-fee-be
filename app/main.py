@@ -2,7 +2,7 @@ import logging
 
 import uvicorn
 from fastapi import FastAPI
-from starlette.middleware.cors import CORSMiddleware
+
 
 logging.basicConfig(level=logging.INFO)
 
